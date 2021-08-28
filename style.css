@@ -12,26 +12,35 @@ body {
   background-size: cover;
   background-repeat: repeat-x;
   font-size: 16px;
+  font-weight: 500;
+  height: 100vh;
 }
 
 h2, p, h4 {
   margin: 0;
 }
 
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 14px;
+}
+
 #card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 450px;
+  position: relative;
+  max-width: 335px;
   height: 550px;
   background-color: white;
-  margin: 20px;
+  margin: 20% 20px;
   border-radius: 1em;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.089);
 }
 
 #card>img {
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
@@ -62,10 +71,23 @@ h2, p, h4 {
   background-color: hsl(225, 100%, 98%);
 }
 
+.annual-plan-wrapper a:active,
+.annual-plan-wrapper a:hover {
+  text-decoration: none;
+}
+
 .annual-plan {
   display: flex;
   flex-direction: column;
   padding-right: 15%;
+}
+
+.annual-plan h4 {
+  font-weight: 700;
+}
+
+.annual-plan p {
+  color: hsl(224, 23%, 55%);
 }
 
 button {
@@ -78,14 +100,26 @@ button {
   font-weight: 700;
   margin: 20px 0;
   border-radius: 1em;
+  cursor: pointer;
+}
+
+button:active,
+button:hover {
+  background-color:  hsla(261, 81%, 46%, 0.637);
 }
 
 #card>a {
   font-size: 16px;
   font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: 900;
 }
 
-
+#card>a:active,
+#card>a:hover {
+  color: black;
+}
 
 .attribution { 
   font-size: 11px; 
@@ -96,14 +130,23 @@ button {
   color: hsl(228, 45%, 44%); 
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
 @media (min-width: 375px) {
   body {
     background-image: url(images/pattern-background-desktop.svg);
     background-size: auto;
     background-repeat: repeat-x;
+    height: 100vh;
   }
 
   #card {
     margin: auto;
+    margin-top: 100px;
+    width: 375px;
   }
 }
