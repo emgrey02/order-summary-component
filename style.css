@@ -132,8 +132,15 @@ button:hover {
 
 footer {
   position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   bottom: 0;
   text-align: center;
+}
+
+footer a {
+  font-size: 11px;
 }
 
 @media (min-width: 375px) {
