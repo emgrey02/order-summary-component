@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/emgrey02/order-summary-component)
-- Live Site URL: [](https://emgrey02.github.io/order-summary-component)
+- Solution URL: [https://github.com/emgrey02/order-summary-component](https://github.com/emgrey02/order-summary-component)
+- Live Site URL: [https://emgrey02.github.io/order-summary-component](https://emgrey02.github.io/order-summary-component)
 
 ## My process
 
